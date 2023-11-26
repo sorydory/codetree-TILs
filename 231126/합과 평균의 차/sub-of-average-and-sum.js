@@ -1,11 +1,11 @@
 const fs = require("fs");
-let input = fs.readFileSync(0).toString().trim();
+let input = fs.readFileSync(0).toString().trim().split(" ");
 let a = Number(input[0]);
 let b = Number(input[1]);
 let c = Number(input[2]);
 let add = a+b+c;
 let average = parseInt(add/3);
 let answer = add - average;
-console.log(18);
-console.log(6);
-console.log(12);
+console.log(add);
+console.log(average);
+console.log(add-average);
